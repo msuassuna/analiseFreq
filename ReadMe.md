@@ -1,13 +1,9 @@
 ---
-title: "ReadMe"
+title: "analiseFreq - Shiny app para análise de frequência de cheias"
 author: "Marcus Suassuna Santos"
 date: "12/03/2021"
 output: html_document
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 ## Sobre o aplicativo
 
