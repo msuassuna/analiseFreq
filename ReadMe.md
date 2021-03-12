@@ -7,22 +7,25 @@ output: html_document
 
 ## Sobre o aplicativo
 
-Bem vindo ao aplicativo interativo  HidroSeries
-Um aplicativo para acesso simplificado aos dados hidrológicos do Sistema Nacional de Informações em Recursos Hídricos (SNIRH) e geração de series historicas.
-O aplicativo foi construído a partir da necessidade de acesso ágil por parte dos pesquisadores do Serviço Geológico do Brasil CPRM/SGB para aplicações em projetos voltados para as mais diversas finalidades: análises de séries históricas, previsões de cheias, análises de frequência de cheias, etc. A CPRM, além de ser o principal gerador de dados para a Rede Hidrometeorologica Nacional, operando cerca de 3/4 desta rede, também é um dos principais usuários desses dados em seus diversos projetos em Hidrologia Aplicada. Assim, um acesso ágil e simples aos dados do HidroWeb, mantido pela Agência Nacional de Águas pelo portal do HidroWeb, foi uma demanda gerada por esse uso intensivo de informação. Os mesmos dados que disponíveis por meio deste aplicativo também podem ser acessados pelo portal do HidroWeb http://www.snirh.gov.br/hidroweb/. O que diferencia esses conteútos é o formato dos arquivos e a forma de obtenção desses dados, porém, os dados são assencialmente os mesmos.
+Bem vindo ao aplicativo  analiseFreq/SGB
+Um aplicativo interativo para análise de frequência de eventos hidrológicos extremos, com foco análise de vazões.
+O aplicativo foi construído no intuito de facilitar a análise de frequência de eventos hidrológicos extremos. Ele é particularmente útil para profissionais da hidrologia, estudantes e pesquisadores que desejem realizar ajustes de funções de distribuição de probabilidades extremas a dados hidrológicos por meio de uma interface simples.
 
-## O que poderá fazer com o aplicativo
+Aqui será possível avaliar, a partir de uma interface bastante simples e amigável, o ajuste de distribuição de probabilidades a dados inseridos pelo/a usuário/a. Além disso, oferece uma ferramenta interface simples e sem a necessidade de habilidades de programação para realizar a análise de frequência e ajuste dos parâmetros dos modelos usando os métodos da máxima verossimilhança e dos momentos-L.
 
-Navegando pelo mapa, você pode selecionar as estações para download clicando sobre elas.
-Os dados podem ser visualizados por meio de tabela dinâmica: aplique filtros, selecione a estação desejada e veja dados detalhados sobre elas.
-Gere diversos tipos de séries históricas a partir dos dados baixados. Clique na aba Series Historicas para ter acesso a todos os tipos de visualização possiveis dos dados.
-Informações detalhadas são oferecidas no item "Sobre o aplicativo".
-IMPORTANTE: Os dados acessados aqui são os mesmos que podem ser baixados pelo portal do HidroWeb. Produzimos esta interface apenas para fins de acesso facilitado, de uma forma mais conveniente para as finalidades de pesquisa por parte da CPRM/SGB.
+## O que poderá fazer no aplicativo:
 
-Brasília, 2020 | ccontato: marcus.santos@cprm.gov.br
+Navegando pelas abas, você vai encontrar informações sobre o aplicativo, sobre a análise de frequência de eventos extremos e os métodos de estimação de parâmetros
+Encontrará uma interface simples de entrada de dados
+Encontrará uma interface para realização de análises exploratórias
+Poderá escolher entre as distribuições GEV e Gumbek e diferentes modelos de estimação de parâmetros
+Opção de baixar os resultados do ajuste de frequência
+IMPORTANTE: Agradeceríamos se pudesse compartilhar conosco sua experiência. Para qual bacia é a sua aplicação do EstatCheias/SGB? Como foi sua experiência com o EstatCheias/SGB? Nos dê seu retorno! Ele será muito importante para melhorias do aplicativo e para outros aplicativos e para projetos de pesquisa futuros feitas pela CPRM/SGB.
 
-## Onde achar
+IMPORTANTE: Não é ofericida qualquer tipo de garantia pelo uso do aplicativo, sendo de total responsabilidade do/a usuário/a os resultados que obtiverem por seu uso.
 
-[analiseFreq](https://msuassuna.shinyapps.io/analiseFreq/)
+Brasília, 2020 | contato: marcus.santos@cprm.gov.br
 
+## Como acessar
 
+[analiseFreq](https://msuassuna.shinyapps.io/analisefreq/)
